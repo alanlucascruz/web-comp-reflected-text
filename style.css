@@ -1,0 +1,28 @@
+* {
+  font-family: "Roboto";
+}
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #020e26;
+}
+.reflected {
+  display: inline-block;
+  width: max-content;
+  padding: 0 10px;
+}
+.reflected > * {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.reflected > :last-child {
+  transform: rotatex(180deg) translatey(28px);
+  mask-image: linear-gradient(transparent 50%, white 90%);
+  -webkit-mask-image: linear-gradient(transparent 50%, white 90%);
+  opacity: 0.72;
+}
