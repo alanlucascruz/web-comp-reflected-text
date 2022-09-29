@@ -1,1 +1,1 @@
-# web-comp-image-reflection
+# web-comp-reflected-text
