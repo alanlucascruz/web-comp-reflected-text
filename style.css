@@ -1,13 +1,13 @@
-* {
-  font-family: "Roboto";
-}
 html,
+body {
+  height: 100%;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
+  font-family: "Roboto";
   background-color: #020e26;
 }
 .reflected {
